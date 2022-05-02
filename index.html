@@ -45,15 +45,31 @@
       <div class="col-md-3">
         <form>
           <p>Filter Search</p>
-          <ul>
+          <ul style = "list-style: none";>
+            <!-- Date search field -->
             <li>
               <label for="date">Enter Date</label>
               <input type="text" placeholder="1/10/2010" id="datetime" />
             </li>
+            <!-- city search field -->
             <li>
-               <button id="filter-btn" type="button" class="btn btn-default">
-                 Filter Table
-               </button>
+              <label for="city">Enter a City</label>
+              <input type="text" placeholder="roswell" id="city" />
+            </li>
+            <!-- state search field -->
+            <li>
+              <label for="state">Enter a State</label>
+              <input type="text" placeholder="ca" id="state" />
+            </li>
+            <!-- country search field -->
+            <li>
+              <label for="country">Enter a Country</label>
+              <input type="text" placeholder="us" id="country" />
+            </li>
+            <!-- shape search field -->
+            <li>
+              <label for="shape">Enter a Shape</label>
+              <input type="text" placeholder="circle" id="shape" />
             </li>
           </ul>
          </form>
