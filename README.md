@@ -10,8 +10,8 @@ To perform a search, enter your query into the Filter Search table at the left s
 ### Example results
 The below pictures showcase the ways that the search can be utilized.
 
-![single_paramters]('static/images/san_diego_search.PNG')
+![single_parameters]('static/images/san_diego_search.png')
 Here is a single parameter used.
 
-![multiple_paramters]('static/images/san_diego_shape_search.PNG')
+![multiple_parameters]('static/images/san_diego_shape_search.png')
 Here is multiple parameters supplied to the filter.
